@@ -178,7 +178,7 @@ function CardProject(props: TCardProject) {
                   {/* <div className="flex w-full justify-center gap-4 px-5"> */}
                     {
                       props.image_demo.map((img) => (
-                        <img className="border border-gray-400 m-auto block my-2"  src={img} />
+                        <img key={img} className="border border-gray-400 m-auto block my-2"  src={img} />
                       ))
                     }
                   {/* </div> */}
