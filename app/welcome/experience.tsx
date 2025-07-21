@@ -7,29 +7,44 @@ type ExperiencesProps = {
 
 const experiences = [
   {
-    company: "TechCorp Solutions",
-    position: "Senior Full-Stack Developer",
-    duration: "2022 - Present",
-    description: "Led development of scalable web applications serving 100K+ users. Architected microservices infrastructure and mentored junior developers.",
-    achievements: ["Improved application performance by 40%", "Led team of 5 developers", "Implemented CI/CD pipelines"],
+    company: "Bigbox - Telkom indonesia",
+    position: "Software Enginer",
+    duration: "2024 - Present",
+    description: "As a Software Engineer, I design and develop scalable solutions for real-time video analytics platforms. My work spans from backend architecture to frontend development, with a focus on delivering high-performance, user-friendly applications.",
+    achievements: [
+      "Designed the architecture for service migration and media server integration using STUN/TURN servers",
+      "Developed SaaS dashboard video analytics",
+      "Leveraged WebRTC for low-latency real-time video streaming and analytics",
+      "Implemented CI/CD pipelines to automate the development and deployment process"
+    ],
     icon: <Zap className="text-yellow-400" size={24} />
   },
   {
-    company: "StartupXYZ",
-    position: "Full-Stack Developer",
-    duration: "2020 - 2022",
-    description: "Developed and maintained multiple client projects using modern web technologies. Collaborated with designers and product managers.",
-    achievements: ["Built 15+ responsive web applications", "Reduced load times by 60%", "Integrated 20+ third-party APIs"],
+    company: "Bigbox - Telkom indonesia",
+    position: "Frontend Developer",
+    duration: "2021 - 2024",
+    description: "As an accomplished Web Developer with a strong track record of delivering high-impact projects, I specialize in leveraging modern technologies to build dynamic, scalable, and responsive web applications.",
+    achievements: [
+      "Developed visually compelling landing pages, product showcases, and admin panels using React.js and Redux, enhancing user engagement and interface performance",
+      "Built a B2B object detection dashboard using an atomic design pattern to support modularity and scalability in web architecture",
+      "Implemented end-to-end testing using Cypress and component testing with Jest, ensuring application stability and cross-platform reliability",
+      "Engineered real-time dashboards for crowd detection, people counting, and vehicle counting by integrating WebRTC for live video streaming and Tailwind CSS for modern UI design",
+      "Delivered cutting-edge Progressive Web Apps (PWAs) using Next.js, leveraging Workbox for service worker management (precaching, routing, runtime caching) and React Query for efficient server state handling"
+    ],
     icon: <Code className="text-blue-400" size={24} />
   },
   {
-    company: "Digital Agency",
+    company: "Bagidata - Telkom Indonesia",
     position: "Frontend Developer",
     duration: "2019 - 2020",
-    description: "Created responsive and interactive user interfaces for various clients across different industries.",
-    achievements: ["Delivered 25+ projects on time", "Achieved 98% client satisfaction", "Mentored 3 junior developers"],
-    icon: <Heart className="text-red-400" size={24} />
-  }
+    description: "As a dedicated Frontend Developer, I have consistently delivered high-quality applications across web and mobile platforms. My work combines a user-centered approach with technical expertise to build performant and reliable digital products.",
+    achievements: [
+      "Developed user-friendly and high-performance B2C mobile applications using React Native, ensuring seamless experiences across Android and iOS devices",
+      "Built dynamic, responsive web applications with React.js, utilizing Redux for global state management and application consistency",
+      "Created robust web solutions using PHP, demonstrating flexibility in adapting to various tech stacks to meet diverse client requirements"],
+    icon: <Code className="text-blue-400" size={24} />
+
+  },
 ];
 
 

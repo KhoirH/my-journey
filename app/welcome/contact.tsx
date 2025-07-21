@@ -20,14 +20,14 @@ function Contact(props: ContactProps) {
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:hilmi.khoirulloh02@gmail.com"
               className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-xl flex items-center justify-center animate-bounce-subtle"
             >
               <Mail className="mr-2" size={20} />
               Send Email
             </a>
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/hilmi-k-247640131"
               className="border border-gray-600 hover:border-gray-400 px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-xl flex items-center justify-center animate-bounce-subtle"
               style={{ animationDelay: '0.2s' }}
             >
