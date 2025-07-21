@@ -231,7 +231,7 @@ function Portofolio() {
               </div>
             </div>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed animate-fade-in-up">
-              Creating innovative web solutions with modern technologies
+              Creating innovative solutions with modern technologies 🚀 
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button

@@ -3,8 +3,8 @@ import Portofolio from "../welcome/portofolio";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Hilmi Khoirulloh Journey" },
+    { name: "description", content: "My journey from zero to be a fullstack developer" },
   ];
 }
 
